@@ -159,8 +159,7 @@ Main components
     color: #3d3536;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 14px;
-    font-size: 0.875rem;
+    font-size: 0.95rem;
   }
   .no-touch .cd-main-nav a:hover {
     color: #99a478;

@@ -4,11 +4,11 @@
 		<nav class="cd-main-nav">
 			<ul>
 				<!-- inser more links here -->
-				<li><a href="javascript:void(0)">Home</a></li>
-				<li><a href="javascript:void(0)">About</a></li>
-				<li><a href="javascript:void(0)">Pricing</a></li>
-				<li><a href="javascript:void(0)">Gallery</a></li>
-				<li><a href="javascript:void(0)">Contact</a></li>
+				<li><icon name="home" class=""></icon><a href="javascript:void(0)">主 页</a></li>
+				<li><icon name="map" class=""></icon><a href="javascript:void(0)">文 章</a></li>
+				<li><a href="javascript:void(0)">推 荐</a></li>
+				<li><a href="javascript:void(0)">美 景</a></li>
+				<li><a href="javascript:void(0)">关 于 我 们</a></li>
 			</ul>
 		</nav> <!-- cd-main-nav -->
 	</header>
@@ -20,6 +20,10 @@ export default {
 
 <style lang="css">
   .header {
-    background-color: rgba(34,34,34,0.2);
+    background-color : rgba(173, 172, 255, 0.5);
+  }
+  svg{
+    top: 3px;
+    position: relative;
   }
 </style>

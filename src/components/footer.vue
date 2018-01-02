@@ -14,11 +14,11 @@ export default {
 <style lang="css">
   .foot {
     height: auto;
-    border-top: 1px solid #303030;
+    border-top: 0;
   }
   .foot-inverse {
-    background-color: rgba(34,34,34,1);
-    border-color: #080808;
+    background-color:rgba(173, 172, 255, 0.1);
+    border-color: rgba(187, 177, 177, 0.99);
   }
   .foot-fixed-bottom {
     position: fixed;
