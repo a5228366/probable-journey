@@ -1,5 +1,13 @@
 # burrogo
 
+# version confirm
+``` bash
+#time:2017-12-28 ide:atom
+use frame vue + vue-cli + vue-router + axios to create project
+
+#time:2018-1-1 ide:atom
+css html complete,we can see the origin page
+```
 > A Vue.js project
 
 ## Build Setup
