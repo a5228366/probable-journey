@@ -27,7 +27,7 @@
         </div> <!-- cd-container -->
       </div> <!-- cd-scrolling-bg -->
 
-      <div :src="priList[1]" class="cd-fixed-bg cd-bg-3">
+      <div class="cd-fixed-bg cd-bg-3">
         <h2>Lorem ipsum dolor sit amet.</h2>
       </div> <!-- cd-fixed-bg -->
 
@@ -39,7 +39,7 @@
         </div> <!-- cd-container -->
       </div> <!-- cd-scrolling-bg -->
 
-      <div :src="priList[1]" class="cd-fixed-bg cd-bg-4">
+      <div class="cd-fixed-bg cd-bg-4">
         <h2>Lorem ipsum dolor sit amet.</h2>
       </div> <!-- cd-fixed-bg -->
     </main> <!-- cd-main-content -->
@@ -54,13 +54,7 @@ export default {
   components: {Header, Footer},
   data () {
     return {
-      mainPri: '../../static/imgs/cd-icon-menu.svg',
-      priList: [
-        '../../static/imgs/cd-background-1.jpg',
-        '../../static/imgs/cd-background-2.jpg',
-        '../../static/imgs/cd-background-3.jpg',
-        '../../static/imgs/cd-background-4.jpg'
-      ]
+
     }
   },
   created () {
@@ -76,5 +70,5 @@ export default {
 </script>
 
 <style lang="css">
-  
+
 </style>
