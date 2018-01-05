@@ -31,8 +31,11 @@ export default {
     text-align: center;
     color: black;
   }
-  @media (min-width: 768px)
-    .navbar-fixed-bottom, .navbar-fixed-top {
-        border-radius: 0;
+@media screen and (max-width: 768px){
+    .foot {
+      height: auto;
+      border-top: 0;
+      font-size: 0.75rem;
+    }
   }
 </style>

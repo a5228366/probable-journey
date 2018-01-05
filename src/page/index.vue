@@ -13,7 +13,8 @@
         </div> <!-- cd-scrolling-bg -->
       </div>
       <div :style="{backgroundImage:`url(${foot.pirtures})`}" class="cd-fixed-bg">
-        <h2>{{foot.titles}}</h2>
+        <h2>{{foot.titles}}<br>
+        <a href="javascript:void(0)">{{foot.link}}</a></h2>
       </div> <!-- cd-fixed-bg -->
     </main> <!-- cd-main-content -->
     <Footer></Footer>
@@ -26,7 +27,7 @@ export default {
   components: {Header, Footer},
   data () {
     return {
-      dat:[
+      dat: [
         {
           pirtures: '../../static/imgs/cd-background-1.jpg',
           titles: '标题1',
@@ -46,15 +47,12 @@ export default {
           pirtures: '../../static/imgs/cd-background-4.jpg',
           titles: '标题4',
           words: '文字4'
-        },
-        {
-          pirtures: '../../static/imgs/cd-background-4.jpg',
-          titles: '标题4'
         }
       ],
       foot: {
         pirtures: '../../static/imgs/cd-background-4.jpg',
-        titles: '尾标题'
+        titles: '尾标题',
+        link: '广告'
       }
     }
   },

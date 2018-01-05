@@ -7,8 +7,15 @@ import router from './router'
 import 'vue-awesome/icons/flag'
 import 'vue-awesome/icons'
 import Icon from 'vue-awesome/components/Icon'
+// /* 手机端地区选择 */
+// import larea from './units/Larea.js'
 Vue.component('icon', Icon)
-Vue.config.productionTip = false
+Vue.config.productionTip = true
+
+/**
+ * 添加全局变量判断是否选择过必选项
+ */
+Vue.prototype.$isLoad = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
